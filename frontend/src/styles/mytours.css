@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600&display=swap");
+
+/* Body Background Color */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.text-center {
+  font-size: calc(2rem + 0.9vw);
+  margin-bottom: 3rem;
+}
+
+.tour-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.tour-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: #fff; /* White background */
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.tour-item:hover {
+  transform: translateY(-5px); /* Move the tour item slightly up on hover */
+}
+
+.tour-image-0001 {
+  flex: 0 0 120px; /* Set the width of the image */
+  height: 120px; /* Set the height of the image */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden;
+}
+
+.tour-image-0001 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tour-details {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 15px; /* Decrease the font size */
+  margin-top: -10px; /* Shift the tour details section upward by 10 pixels */
+  font-family: "SF Pro Display", sans-serif; /* Use the imported font */
+}
+
+.tour-name {
+  font-weight: bold;
+  margin-bottom: 5px; /* Reduce margin */
+  padding-top: 5px; /* Add some space above the tour name */
+  color: #333; /* Dark text color */
+  /* border-bottom: 2px solid #007bff; */
+}
+
+.booking-info {
+  margin-bottom: 3px; /* Reduce margin */
+  color: #666; /* Lighter text color */
+}
+
+.guest-info {
+  color: black;
+  background-color: #ff8c19;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold; /* Make the text bold */
+  border: 2px solid #ff8c19; /* Add a border with the same color as background */
+}
